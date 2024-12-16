@@ -9,7 +9,7 @@ const NavbarButton = ({ title, options, link  }) => {
         return (
             <div className="inline-block">
                 <Link href={link} passHref>
-                    <button className="text-black px-2 py-0.5 rounded-md hover:bg-gray-200 flex items-center font-bold">
+                    <button className="text-black px-2 py-0.5 rounded-md hover:bg-gray-200 flex items-center font-bold text-xl">
                         {title}
                     </button>
                 </Link>
@@ -19,7 +19,7 @@ const NavbarButton = ({ title, options, link  }) => {
 
     return (
         <div className="relative inline-block group">
-            <button className="text-black px-2 py-0.5 rounded-md hover:bg-gray-200 flex items-center font-bold">
+            <button className="text-black px-2 py-0.5 rounded-md hover:bg-gray-200 flex items-center font-bold text-xl">
                 {title}
 
             </button>
