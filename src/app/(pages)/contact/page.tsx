@@ -9,7 +9,7 @@ export default function ManagementDocumente() {
                 <PageTitle text="CONTACT"></PageTitle>
                 <div className="w-full flex text-center lg:text-right mt-8 lg:mt-32 justify-center items-center flex-col lg:flex-row">
                     <div className="lg:mr-10 lg:mb-0 mb-16">
-                        <p className="text-5xl mt-5 font-bold text-indigo-900 hidden lg:block ">Date de Contact</p>
+                        <p className="text-5xl mt-5 lg:mt-0 font-bold text-indigo-900 hidden lg:block ">Date de Contact</p>
                         <p className="text-2xl mt-2">colegiul_zalau@yahoo.com</p>
                         <p className="text-2xl"> (0260) 612598</p>
 

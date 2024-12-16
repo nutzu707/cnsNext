@@ -1,6 +1,7 @@
 import PageTitle from "@/app/components/pagetitle/pagetitle";
 import PageBody from "@/app/components/pagebody/pagebody";
 import Footer from "@/app/components/footer/footer";
+import React from "react";
 
 export default function ManagementDocumente() {
     return (
@@ -27,6 +28,15 @@ export default function ManagementDocumente() {
                     <div className="w-full lg:min-w-[650px] hidden lg:block">
                         <img className="w-full h-[calc(100vw*9/16) lg:min-w-[650px] lg:h-[365px] rounded-2xl shadow-2xl" src="/websiteUI/Colegiul_Naţional__Silvania__Zalău%20(1).jpg" alt="Poza Cladire CNS" />
                     </div>
+
+                </div>
+                <div className="w-full">
+
+                    <div className="hidden lg:block">   <PageTitle text="VIZIUNEA CNS" /> </div>
+                    <h1 className="text-4xl lg:text-6xl mr-0 lg:mr-10 font-bold text-center lg:text-right mt-20 lg:-mt-5 block lg:hidden">VIZIUNEA CNS</h1>
+                    <p className="text-xl lg:text-3xl text-justify lg:text-center mt-10 lg:mt-20">Colegiul Naţional „Silvania”- Zalău valorifică tradiția celor aproape patru secole de activitate în spațiul educațional sălăjean și promovează o educație modernă fundamentată pe valori și principii europene, la standarde de excelență. Colegiul Naţional „Silvania” - Zalău este liantul între tradiţia umanist - ştiinţifică sălăjeană şi idealul educaţional construit pe valorile inalterabile ale democraţiei şi pe aspiraţiile societăţii româneşti. Urmăreşte crearea unui mediu educaţional şi social care să stimuleze încrederea, responsa bilizarea, progresul elevilor şi al profesorilor, deopotrivă. Scopul nostru este promovarea excelenţei, în vederea dezvoltării plenare a fiecărui elev, astfel încât să se manifeste ca un cetățean activ și competitiv în societatea viitorului. De aceea, ne propunem formarea unor entități competente, motivate și creative, capabile de opțiune și decizie.Identitatea noastră înseamnă performanţă, tradiţie, diversitate, onoare și ataşament faţă de Adevăr, Bine și Frumos – idealurile universale ale educației.
+
+                    </p>
 
                 </div>
 
